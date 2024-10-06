@@ -1,41 +1,32 @@
-table,th,td,tr{
-    border: 1px solid;
+body {
+    font-family: Arial, sans-serif;
 }
 
-th{
-    font-size: larger;
-}
-div{
-    padding:0.5em;
-    width:200px;
-  }
-
-.date{
-    width: 100px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.bill{
-    width: 100px;
+.receipts, .payments, .profits {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.income{
-    width: 350px;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.source{
-    width: 100px;
-}
-
-.page{
-    width: 100px;
-}
-.amount, .amount_1{
-    width: 50px;
-}
-
-
-h3{
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
     text-align: left;
-    font-size: 25px;
-    padding-left: 250px;
+}
+
+th {
+    background-color: #f0f0f0;
 }

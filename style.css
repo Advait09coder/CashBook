@@ -1,0 +1,41 @@
+table,th,td,tr{
+    border: 1px solid;
+}
+
+th{
+    font-size: larger;
+}
+div{
+    padding:0.5em;
+    width:200px;
+  }
+
+.date{
+    width: 100px;
+}
+
+.bill{
+    width: 100px;
+}
+
+.income{
+    width: 350px;
+}
+
+.source{
+    width: 100px;
+}
+
+.page{
+    width: 100px;
+}
+.amount, .amount_1{
+    width: 50px;
+}
+
+
+h3{
+    text-align: left;
+    font-size: 25px;
+    padding-left: 250px;
+}
